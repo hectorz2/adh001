@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 1764131765}
   - component: {fileID: 1764131764}
   m_Layer: 0
-  m_Name: Game
+  m_Name: GameManager
   m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -350,8 +350,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750d63100c163884b833124a450eedcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   sectionWidth: 20.5
   maximumSectionsLoaded: 4
+  spawnNothing: 20
+  spawnLoot: 60
+  spawnEnemy: 100
 --- !u!4 &1764131765
 Transform:
   m_ObjectHideFlags: 0
